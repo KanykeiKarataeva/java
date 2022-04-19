@@ -17,7 +17,7 @@ class MyPanel extends JPanel{
 	public void coordinates(Graphics g){
 		Graphics2D graphic=(Graphics2D) g;
 		graphic.setStroke(new BasicStroke(1f, BasicStroke.CAP_BUTT, BasicStroke.JOIN_ROUND, 10.0f, new float[] {16.0f,0f}, 0.0f));
-		graphic.setPaint(Color.black);
+		graphic.setPaint(Color.blue);
 		
 		graphic.drawRect(20,20,400,400);
 		graphic.drawLine(20, 220, 420, 220);

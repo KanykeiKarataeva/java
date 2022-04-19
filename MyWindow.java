@@ -22,6 +22,11 @@ class MyWindow extends JFrame {
 
 		MyListener listener = new MyListener();
 		
+		button4 = new JButton("Just button");
+		button4.setBounds(20, 80, 120, 30);
+		contain.add(button4);
+		
+		
 		button1 = new JButton("f(x) = x");
 		button1.addActionListener(listener);
 		button1.setBounds(55, 80, 120, 30);
